@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #1D334A;
+    color: white;
+}
+
+main{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.resume{
+    display: flex;
+    padding: 10px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #084D6E;
+    border-radius: 20px;
+    margin: 30px 20px;
+}
+
+.resume div{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #1D334A;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.newItem{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.divDesc, .divType, .divAmount{
+    display: flex;
+    flex-direction: column;
+}
+
+.newItem button{
+    background-color: #084D6E;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 34px;
+    font-size: 20px;
+}
+
+input, select{
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.divTable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 95%;
+    padding: 20px 0;
+}
+
+th{
+    text-align: start;
+    border-bottom: inset #084D6E;
+    padding-bottom: 5px;
+}
+
+i{
+    font-size: 25px;
+}
+
+.bxs-chevron-up-circle{
+    color: #00c9a7;
+}
+
+.bxs-chevron-down-circle{
+    color: #d83121;
+}
+
+.columnAction{
+    width: 40px;
+    text-align: center;
+}
+
+.columnAction button{
+    background: transparent;
+    border: none;
+}
+
+.columnAmount{
+    width: 30%;
+}
+
+.columnType{
+    width: 80px;
+    text-align: center;
+}
+

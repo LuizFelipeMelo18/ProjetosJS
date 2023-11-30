@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Área</title>
+</head>
+<body>
+  <h1>Calculadora de Área</h1>
+
+  <div class="option">
+    <label for="forma">Escolha uma forma:</label>
+    <select id="forma" onchange="mostrarEntradas()">
+      <option value="circulo">Círculo</option>
+      <option value="troncoPiramide">Tronco da Pirâmide</option>
+      <option value="retangulo">Retângulo</option>
+      <option value="coroaCirculo">Coroa do Círculo</option>
+      <option value="trapezioIrregular">Trapézio Irregular</option>
+      <option value="poligonoRegular">Polígono Regular (N lados)</option>
+      <option value="quadrado">Quadrado</option>
+      <option value="setorCircular">Setor Circular</option>
+    </select>
+
+    <div id="containerEntrada"></div>
+  </div>
+
+
+  <button onclick="calcularArea()">Calcular Área</button>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
